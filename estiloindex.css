@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+li{
+    display: inline-block;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: white;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+section{
+    padding: 2rem 9%;
+}
+.primerasec{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(photo-1542640244-7e672d6cef4e.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
