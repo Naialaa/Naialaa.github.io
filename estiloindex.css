@@ -13,7 +13,7 @@ li{
     padding: 10px;
 }
 li:hover{
-    color: red;
+    color: palevioletred;
     cursor: pointer;
 }
 header{
@@ -35,7 +35,7 @@ section{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(photo-1542640244-7e672d6cef4e.jfif);
+    background: url(media_1b623f583cce04dfdac563b5971e491a884471e44.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
