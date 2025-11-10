@@ -32,7 +32,7 @@ header{
 .imgn{
     display: flex;
     position: absolute;
-    left: 640px;
+    left: 650px;
 }
 section{
     padding: 32px 120px;
@@ -46,15 +46,21 @@ section{
     background-size: cover;
     background-position: center;
 }
+article{
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+}
 h2{
     background-color: rgba(216, 112, 147, 0.6);
     padding: 10px;
     text-align: center;
 }
 p{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     text-align: justify;
+    line-height: 1.7;
 }
 a{
     color: black;
