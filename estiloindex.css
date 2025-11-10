@@ -26,7 +26,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-sizing: border-box;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+.imgn{
+    display: flex;
+    position: absolute;
+    left: 640px;
 }
 section{
     padding: 32px 120px;
@@ -34,9 +40,33 @@ section{
 .primerasec{
     display: flex;
     align-items: center;
-    min-height: 100vh;
-    background: url(media_1b623f583cce04dfdac563b5971e491a884471e44.png);
+    min-height: 90vh;
+    background: url(japonn.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+h2{
+    background-color: rgba(216, 112, 147, 0.6);
+    padding: 10px;
+    text-align: center;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: palevioletred;
+    cursor: pointer;
+}
+.imgtokyo{
+    float: right;
+}
+.nara{
+    margin-top: 40px;
 }
