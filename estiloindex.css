@@ -29,11 +29,6 @@ header{
     box-sizing: border-box;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
-.imgn{
-    display: flex;
-    position: absolute;
-    left: 650px;
-}
 section{
     padding: 32px 120px;
 }
@@ -48,7 +43,7 @@ section{
 }
 article{
     overflow: auto;
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 h2{
@@ -74,5 +69,11 @@ a:hover{
     float: right;
 }
 .nara{
+    margin-top: 40px;
+}
+.osaka{
+    margin-top: 40px;
+}
+.kioto{
     margin-top: 40px;
 }
