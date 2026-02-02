@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    
+}
+div{
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
+li:hover{
+    color: palevioletred;
+    cursor: pointer;
+}
+header{
+    top: 0; 
+    left: 0; 
+    right: 0;
+    background-color: white;
+    padding: 32px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: palevioletred;
+}
+section{
+    padding: 32px 120px;
+}
+.primerasec{
+    display: flex;
+    align-items: center;
+    min-height: 75vh;
+    background: url(actividad.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    font-family: "Elms Sans";
+    font-size: 20px;
+}
