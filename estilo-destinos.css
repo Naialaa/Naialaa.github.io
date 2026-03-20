@@ -3,7 +3,9 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    
+}
+body{
+    width: 100%;
 }
 div{
     text-align: center;
@@ -29,7 +31,6 @@ header{
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 section{
     padding: 32px 120px;
@@ -38,16 +39,44 @@ section{
     display: flex;
     align-items: center;
     min-height: 90vh;
-    background: url(lugares-cerezo.webp);
+    background: url(destinos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+article{
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+}
+h2{
+    background-color: rgba(216, 112, 147, 0.6);
+    padding: 10px;
+    text-align: center;
+}
+p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: justify;
+    line-height: 1.7;
+}
 a{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 a:hover{
-    color: inherit;
+    color: palevioletred;
     cursor: pointer;
+}
+.imgtokyo{
+    float: right;
+}
+.nara{
+    margin-top: 40px;
+}
+.osaka{
+    margin-top: 40px;
+}
+.kioto{
+    margin-top: 40px;
 }
