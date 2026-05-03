@@ -6,7 +6,7 @@
     
 }
 div{
-    text-align: center;
+    text-align: left;
 }
 h1{
     font-size: 20px;
@@ -94,4 +94,9 @@ article div:nth-of-type(3) p{
 main img{
     width: 200px;
     position: relative;
+}
+section article div img{
+    width: 800px;
+    left: 290px;
+    bottom: 90px;
 }
