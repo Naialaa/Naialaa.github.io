@@ -83,7 +83,7 @@ h2:nth-of-type(2){
 }
 p{
     margin-bottom: 25px;
-    text-align: justify;
+    text-align: left;
     color: #555;
 }
 article img {

@@ -23,7 +23,7 @@ body{
     z-index: 1000;
 }
 div{
-    text-align: center;
+    text-align: left;
 }
 h1{
     font-size: 20px;
@@ -80,7 +80,7 @@ h2{
 }
 p{
     margin-bottom: 25px;
-    text-align: justify;
+    text-align: left;
     color: #555;
 }
 article img {
